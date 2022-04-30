@@ -1,4 +1,26 @@
 {
+	"Person": {
+		"name": {
+			"string": {}
+		},
+		"username": {
+			"string": {}
+		},
+		"email": {
+			"string": {}
+		},
+		"company": {
+			"string": {}
+		},
+		"website": {
+			"string": {}
+		},
+		
+		"comments": {
+			"hasMany": "Comment"
+		}
+	},
+	
 	"Post": {
 		"title": {
 			"string": {}
